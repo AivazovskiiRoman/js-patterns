@@ -1,8 +1,8 @@
 /**
  * Abstract Factory
  * The code snippet provided implements the Abstract Factory pattern in JavaScript.
- * It consists of two factory functions, sportCarFactory and familyCarFactory, which create instances of the Z4 and X7 classes, respectively.
- * The bmwProducer function acts as an abstract factory, selecting the appropriate factory based on the kind of car requested.
+ * The code demonstrates the usage of the Abstract Factory pattern to dynamically create instances of different
+ * types of cars based on the factory selected by the bmwProducer function.
  */
 
 function bmwProducer(kind) {
