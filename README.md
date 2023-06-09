@@ -8,13 +8,16 @@ Patterns, or templates, are specific and proven constructions that serve to solv
 
 In these examples, I utilize the JavaScript language with ES6 syntax.
 
-### Patterns:
+### Creational Patterns:
 
 1. Singleton
 2. Factory Method
 3. Abstract Factory
 4. Prototype
 5. Builder
+
+### Structural Patterns:
+
 6. Decorator
 7. Facade
 8. Proxy
@@ -22,6 +25,9 @@ In these examples, I utilize the JavaScript language with ES6 syntax.
 10. Composite
 11. Bridge
 12. Flyweight
+
+### Behavioral Patterns:
+
 13. Mediator
 14. Iterator
 15. Chain of Responsibility
