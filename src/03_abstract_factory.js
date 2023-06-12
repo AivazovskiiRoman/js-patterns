@@ -1,8 +1,11 @@
 /**
  * Abstract Factory
- * The code snippet provided implements the Abstract Factory pattern in JavaScript.
- * The code demonstrates the usage of the Abstract Factory pattern to dynamically create instances of different
- * types of cars based on the factory selected by the bmwProducer function.
+ * The code snippet provided implements the Abstract Factory pattern in
+ * JavaScript.
+ *
+ * The code demonstrates the usage of the Abstract Factory pattern to
+ * dynamically create instances of different types of cars based on the factory
+ * selected by the bmwProducer function.
  */
 
 function bmwProducer(kind) {
