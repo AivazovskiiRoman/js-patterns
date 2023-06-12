@@ -1,13 +1,16 @@
 /**
  * Builder
  * The code implements the Builder pattern using classes in JavaScript.
- * The Builder pattern is a creational design pattern that allows for the step-by-step construction of complex objects.
- * It separates the construction of an object from its representation, enabling the same construction process to create
- * different representations.
+ * The Builder pattern is a creational design pattern that allows for the
+ * step-by-step construction of complex objects.
+ * It separates the construction of an object from its representation, enabling
+ * the same construction process to create different representations.
  *
- * By using the Builder pattern, the code allows for flexible construction of Car objects, providing the ability to add
- * optional features and update properties in a step-by-step manner. This pattern enhances readability and maintainability,
- * especially when dealing with complex objects with many optional parameters.
+ * By using the Builder pattern, the code allows for flexible construction of
+ * Car objects, providing the ability to add optional features and update
+ * properties in a step-by-step manner. This pattern enhances readability and
+ * maintainability, especially when dealing with complex objects with many
+ * optional parameters.
  */
 
 class Car {
@@ -57,7 +60,9 @@ const car2 = new CarBuilder()
   .updateEngine('V12');
 
 console.log(car1.build());
-// Output: Car { autopilot: false, parktronic: false, signaling: false, engine: 'V8' }
+// Output:
+// Car { autopilot: false, parktronic: false, signaling: false, engine: 'V8' }
 
 console.log(car2.build());
-// Output: Car { autopilot: true, parktronic: true, signaling: true, engine: 'V12' }
+// Output:
+// Car { autopilot: true, parktronic: true, signaling: true, engine: 'V12' }
