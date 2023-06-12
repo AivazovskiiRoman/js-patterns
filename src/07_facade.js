@@ -1,8 +1,9 @@
 /**
  * Facade pattern
- * The Facade pattern is a design pattern that provides a simplified interface to a complex
- * subsystem or set of classes. It encapsulates the complexities of the subsystem and presents
- * a unified interface that makes it easier to use.
+ * The Facade pattern is a design pattern that provides a simplified interface
+ * to a complex subsystem or set of classes. It encapsulates the complexities
+ * of the subsystem and presents a unified interface that makes it easier to
+ * use.
  */
 
 class Conveyor {
