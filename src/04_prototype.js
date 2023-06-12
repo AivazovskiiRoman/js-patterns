@@ -1,8 +1,9 @@
 /**
  * Prototype
  * The code implements the Prototype pattern using classes in JavaScript.
- * The Prototype pattern allows you to create new objects by cloning an existing prototype object,
- * enabling customization of individual instances while keeping the base structure intact.
+ * The Prototype pattern allows you to create new objects by cloning an
+ * existing prototype object, enabling customization of individual instances
+ * while keeping the base structure intact.
  */
 
 class TeslaCar {
