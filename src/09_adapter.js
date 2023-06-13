@@ -1,8 +1,10 @@
 /**
  * Adapter pattern
- * The Adapter pattern is a structural design pattern that allows incompatible interfaces of classes to work together
- * by converting the interface of one class into another interface that the client expects. It acts as a bridge between
- * two incompatible interfaces, allowing them to collaborate without modifying their existing code.
+ * The Adapter pattern is a structural design pattern that allows incompatible
+ * interfaces of classes to work together by converting the interface of one
+ * class into another interface that the client expects. It acts as a bridge
+ * between two incompatible interfaces, allowing them to collaborate without
+ * modifying their existing code.
  */
 
 class StandardEngine {
