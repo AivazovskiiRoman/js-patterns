@@ -1,9 +1,10 @@
 /**
  * Composite design pattern
- * The code demonstrates the Composite design pattern, which allows objects to be composed into tree-like
- * structures to represent part-whole hierarchies.
- * In this example, we have different equipment classes representing individual components of a car
- * (Engine, Body, and Tools), all extending the Equipment class.
+ * The code demonstrates the Composite design pattern, which allows objects to
+ * be composed into tree-like structures to represent part-whole hierarchies.
+ * In this example, we have different equipment classes representing individual
+ * components of a car (Engine, Body, and Tools), all extending the Equipment
+ * class.
  */
 
 class Equipment {
