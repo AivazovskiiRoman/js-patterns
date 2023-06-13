@@ -79,4 +79,5 @@ myCar.add(new Engine());
 myCar.add(new Body());
 myCar.add(new Tools());
 
-console.log(`${myCar.getName()} price is ${myCar.getPrice()}`); // Output: BMW price is 74000
+console.log(`${myCar.getName()} price is ${myCar.getPrice()}`);
+// Output: BMW price is 74000
