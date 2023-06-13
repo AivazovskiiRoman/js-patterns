@@ -1,9 +1,10 @@
 /**
  * Proxy pattern
- * The Proxy pattern is a structural design pattern that provides a surrogate or placeholder object
- * to control access to another object, called the real subject. The proxy acts as an intermediary
- * between the client and the real subject, allowing additional functionality to be added before or
- * after accessing the real subject.
+ * The Proxy pattern is a structural design pattern that provides a surrogate
+ * or placeholder object to control access to another object, called the real
+ * subject. The proxy acts as an intermediary between the client and the real
+ * subject, allowing additional functionality to be added before or after
+ * accessing the real subject.
  */
 
 class CarAccess {
