@@ -1,4 +1,12 @@
-// State
+/**
+ * State
+ * The State design pattern is a behavioral pattern that allows an object to
+ * alter its behavior when its internal state changes. It encapsulates states
+ * into separate classes and delegates the behavior to the current state. This
+ * pattern promotes the principle of encapsulation by representing each state
+ * as an object, and allows the object to change its behavior at runtime by
+ * switching between different state objects.
+ */
 
 class OrderStatus {
   constructor(name, nextStatus) {
