@@ -45,14 +45,26 @@ class Order {
   nextState() {
     this.state = this.state.next();
   }
+
+  cancelOrder() {
+    this.state.name === 'WaitingForPayment'
+      ? console.log('The order is canceled.')
+      : console.log('The order can not be canceled.');
+  }
 }
 
 // Test
 const myOrder = new Order();
 console.log(myOrder.state.name); // Output: WaitingForPayment
 
+// Try to cancel the order
+myOrder.cancelOrder(); // Output: The order is canceled.
+
 myOrder.nextState();
 console.log(myOrder.state.name); // Output: Shipping
 
 myOrder.nextState();
 console.log(myOrder.state.name); // Output: Delivered
+
+// Try to cancel the order
+myOrder.cancelOrder(); // Output: The order can not be canceled.
